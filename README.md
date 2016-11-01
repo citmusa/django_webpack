@@ -38,5 +38,5 @@ sudo sh -c 'echo "export PROJECT_ENV=development" >> /etc/profile.d/environment.
 
 ### Webpack
 During development webpack will bundle js and css (after sass compilation)
-Run the following to watch for changes:
+Run the following to watch for changes (in MacOS):
 node_modules/.bin/webpack --config webpack.config.js --watch
